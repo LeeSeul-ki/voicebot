@@ -12,8 +12,7 @@ from datetime import datetime
 from gtts import gTTS
 # 음원 파일 재생을 위한 패키지 추가
 import base64
-# 오디오 파일의 처리를 위한 패키지 추가
-from pydub import AudioSegment
+
 
 #### 기능 구현 함수 ####
 def STT(audio, apikey):
