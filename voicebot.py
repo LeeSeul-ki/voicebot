@@ -14,7 +14,6 @@ from gtts import gTTS
 import base64
 # 오디오 파일의 처리를 위한 패키지 추가
 from pydub import AudioSegment
-import ffmpeg
 
 #### 기능 구현 함수 ####
 def STT(audio, apikey):
